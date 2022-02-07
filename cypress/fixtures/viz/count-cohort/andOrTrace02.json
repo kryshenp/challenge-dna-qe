@@ -1,0 +1,55 @@
+{
+  "fields": {"column": "patient$patient_id"},
+  "filters": {
+    "pheno_filters": {
+      "compound": [
+        {
+          "name": "phenotype",
+          "logic": "and",
+          "filters": {
+            "patient$age": [{"condition": "less-than", "values": [40]}]
+          },
+          "entity": {
+            "logic": "or",
+            "name": "patient",
+            "operator": "exists",
+            "children": [
+              {
+                "name": "test@<UUID>",
+                "logic": "and",
+                "filters": {
+                  "test$test_type": [{"condition": "in", "values": ["Blood"]}],
+                  "test$result_cat": [{"condition": "in", "values": ["Low"]}]
+                },
+                "entity": {
+                  "logic": "and",
+                  "name": "test",
+                  "operator": "exists",
+                  "children": []
+                }
+              },
+              {
+                "name": "test@<UUID>",
+                "logic": "and",
+                "filters": {
+                  "test$test_type": [{"condition": "in", "values": ["Swab"]}],
+                  "test$result_cat": [{"condition": "in", "values": ["High"]}]
+                },
+                "entity": {
+                  "logic": "and",
+                  "name": "test",
+                  "operator": "exists",
+                  "children": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "logic": "and"
+    },
+    "assay_filters": {"compound": [], "logic": "and"},
+    "logic": "and"
+  },
+  "project_context": "project-FfQ4z7000GvgVZGPGk7kZPKF"
+}

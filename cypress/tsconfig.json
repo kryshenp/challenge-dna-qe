@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "cypress-grep",
+      "cypress-image-snapshot",
+      "cypress-real-events",
+      "@4tw/cypress-drag-drop",
+    ]
+  },
+  "include": [
+    "/**/*.ts"
+  ]
+}
