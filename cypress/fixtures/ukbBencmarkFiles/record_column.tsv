@@ -1,0 +1,6 @@
+column_name	table_name	value_type	encoding_id	orda	units	notes
+ins_index	deatch	11	0	1		A numerical index used to distinguish the cases where we have multiple death records for a participant.
+date_of_death	death	51	0	4		Date of death
+dsource	death	41	1970	2		The data source is either E/W for England & Wales or SCOT for Scotland.
+eid	death	11	0	0		This identifier is the same encoded id used in the main dataset.
+source	death	11	261	3		The particular data format in which this record was received.

@@ -1,0 +1,33 @@
+{
+  "baseUrl": "https://staging.dnanexus.com",
+  "chromeWebSecurity": false,
+  "video": false,
+  "viewportHeight": 1243,
+  "viewportWidth": 1792,
+  "downloadsFolder": "downloads",
+  "fixturesFolder": "fixtures",
+  "integrationFolder": "integration",
+  "pluginsFile": "plugins/index.js",
+  "experimentalSessionSupport": true,
+  "screenshotsFolder": "screenshots",
+  "supportFile": "support/index.js",
+  "videosFolder": "videos",
+  "scrollBehavior": "center",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "env": {
+    "pathToLocusZoomJobExecutionTokens": "./fixtures/locusZoomExecutionTokens"
+  },
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 120000,
+  "requestTimeout": 120000,
+  "videoUploadOnPasses": false
+}

@@ -1,0 +1,630 @@
+{
+    "favorites": {
+      "projects": [
+        "project-FfQ4z7000GvgVZGPGk7kZPKF"
+      ]
+    },
+    "sessionData": {
+      "uiSettings": {
+        "data_manager": {
+          "columnsSizes": [
+            {
+              "id": "id",
+              "value": 100
+            },
+            {
+              "id": "name",
+              "value": 306
+            },
+            {
+              "id": "class",
+              "value": 226.5
+            },
+            {
+              "id": "billTo",
+              "value": 100
+            },
+            {
+              "id": "size",
+              "value": 70
+            },
+            {
+              "id": "created",
+              "value": 70
+            },
+            {
+              "id": "createdBy.user",
+              "value": 60
+            },
+            {
+              "id": "modified",
+              "value": 229.77499771118164
+            },
+            {
+              "id": "tags",
+              "value": 100
+            },
+            {
+              "id": "sponsored",
+              "value": 70
+            },
+            {
+              "id": "state",
+              "value": 392.5
+            },
+            {
+              "id": "status",
+              "value": 100.5
+            }
+          ],
+          "columnsToShow": [
+            "name",
+            "rawTotalSize",
+            "state",
+            "class",
+            "sponsored",
+            "status",
+            "size",
+            "created"
+          ],
+          "filtersVisibility": {
+            "archivalState": true,
+            "class": true,
+            "created": true,
+            "id": true,
+            "modified": false,
+            "name": true,
+            "properties": true,
+            "state": true,
+            "tags": true,
+            "types": true
+          },
+          "isInfoPanelOpen": false,
+          "isVisibleFilterList": true,
+          "isVisibleFolderList": true,
+          "pageSize": 50,
+          "project-FfQ4z7000GvgVZGPGk7kZPKF": {
+            "columnsToShow": [
+              "selection",
+              "name",
+              "class",
+              "created",
+              "createdBy.user",
+              "modified",
+              "size",
+              "tags",
+              "status"
+            ],
+            "sizeColumns": {
+              "class": 160,
+              "created": 160,
+              "createdBy.user": 160,
+              "modified": 160,
+              "name": 280,
+              "selection": 48,
+              "size": 100,
+              "tags": 160
+            },
+            "sortOrder": [
+              {
+                "desc": false,
+                "id": "name"
+              }
+            ]
+          },
+          "project-FjZ4vy00QGBzXjF65ZF5p2q0": {
+            "columnsToShow": [
+              "selection",
+              "name",
+              "class",
+              "created",
+              "createdBy.user",
+              "modified",
+              "size",
+              "tags",
+              "status"
+            ],
+            "sizeColumns": {
+              "class": 160,
+              "created": 160,
+              "createdBy.user": 160,
+              "modified": 160,
+              "name": 280,
+              "selection": 48,
+              "size": 100,
+              "tags": 160
+            },
+            "sortOrder": [
+              {
+                "desc": false,
+                "id": "name"
+              }
+            ]
+          },
+          "project-Fk77jf00Fv8K3X3Q3pVkvfvB": {
+            "columnsToShow": [
+              "selection",
+              "name",
+              "class",
+              "created",
+              "createdBy.user",
+              "modified",
+              "size",
+              "tags",
+              "status"
+            ],
+            "sizeColumns": {
+              "class": 160,
+              "created": 160,
+              "createdBy.user": 160,
+              "modified": 160,
+              "name": 280,
+              "selection": 48,
+              "size": 100,
+              "tags": 160
+            },
+            "sortOrder": [
+              {
+                "desc": false,
+                "id": "name"
+              }
+            ]
+          },
+          "project-projectIdPlaceholder": {
+            "columnsToShow": [
+              "selection",
+              "name",
+              "class",
+              "created",
+              "createdBy.user",
+              "modified",
+              "size",
+              "tags",
+              "status"
+            ],
+            "sizeColumns": {
+              "class": 160,
+              "created": 160,
+              "createdBy.user": 160,
+              "modified": 160,
+              "name": 280,
+              "selection": 48,
+              "size": 100,
+              "tags": 160
+            },
+            "sortOrder": [
+              {
+                "desc": false,
+                "id": "name"
+              }
+            ]
+          },
+          "sortOrder": [
+            {
+              "desc": true,
+              "id": "created"
+            }
+          ]
+        },
+        "datasets_catalog": {
+          "columnsSizes": [
+            {
+              "id": "name",
+              "value": 662.1779645284016
+            },
+            {
+              "id": "project",
+              "value": 254.59114201863605
+            },
+            {
+              "id": "created",
+              "value": 202.59460576375324
+            },
+            {
+              "id": "createdBy.user",
+              "value": 284.7126630147298
+            },
+            {
+              "id": "modified",
+              "value": 314.6258710225423
+            },
+            {
+              "id": "tags",
+              "value": 314.62587102254236
+            },
+            {
+              "id": "id",
+              "value": 100
+            },
+            {
+              "id": "class",
+              "value": 60
+            },
+            {
+              "id": "size",
+              "value": 100
+            },
+            {
+              "id": "level",
+              "value": 100
+            },
+            {
+              "id": "billTo",
+              "value": 297.8
+            },
+            {
+              "id": "sponsored",
+              "value": 100
+            },
+            {
+              "id": "state",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-Cohort Browser Dashboard",
+              "value": 60
+            },
+            {
+              "id": "property-defaultDashboard",
+              "value": 60
+            },
+            {
+              "id": "property-dbr_cluster",
+              "value": 60
+            },
+            {
+              "id": "property-dbr_host",
+              "value": 60
+            },
+            {
+              "id": "property-dbr_token",
+              "value": 60
+            },
+            {
+              "id": "property-dbr_workspace",
+              "value": 60
+            },
+            {
+              "id": "property-defaultDashbaord",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-UKB 100k synthetic data",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-UKB 50k synthetic data",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-Patientdata Dataset Dashboard View",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-<name>",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-Patient Data Dashboard",
+              "value": 60
+            },
+            {
+              "id": "property-dashboard-Full Dashboard",
+              "value": 60
+            }
+          ],
+          "columnsToShow": [
+            "name",
+            "project",
+            "createdBy.user",
+            "tags",
+            "created",
+            "modified"
+          ],
+          "isInfoPanelOpen": false,
+          "sortOrder": [
+            {
+              "desc": true,
+              "id": "created"
+            }
+          ]
+        },
+        "organizations_page": {
+          "columnsToShow": [
+            "name",
+            "id",
+            "estSpendingLimitLeft"
+          ]
+        },
+        "projects_list": {
+          "columnsSizes": [
+            {
+              "id": "name",
+              "value": 146.24999351501467
+            },
+            {
+              "id": "totalDataUsage",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "level",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "permissions",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "status",
+              "value": 405.00002403259276
+            },
+            {
+              "id": "ukb-application-id",
+              "value": 405.00002403259276
+            },
+            {
+              "id": "modified",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "tags",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "region",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "billTo",
+              "value": 60
+            },
+            {
+              "id": "creator",
+              "value": 76.24999351501465
+            },
+            {
+              "id": "dataSponsored",
+              "value": 100
+            },
+            {
+              "id": "created",
+              "value": 100
+            },
+            {
+              "id": "containsPHI",
+              "value": 100
+            },
+            {
+              "id": "property-property_key",
+              "value": 60
+            }
+          ],
+          "columnsToShow": [
+            "name",
+            "totalDataUsage",
+            "level",
+            "permissions",
+            "modified",
+            "tags",
+            "creator",
+            "ukb-application-id",
+            "status",
+            "region",
+            "billTo"
+          ],
+          "filtersVisibility": {
+            "billTo": true,
+            "creator": true,
+            "id": true,
+            "modified": false,
+            "name": true,
+            "properties": true,
+            "sharedWith": true
+          },
+          "isInfoPanelOpen": false,
+          "isVisibleFilterList": true,
+          "sortOrder": [
+            {
+              "desc": false,
+              "id": "tags"
+            }
+          ]
+        },
+        "quicklaunch": {
+          "isVisibleFilterList": true,
+          "sortOrder": [
+            {
+              "desc": false,
+              "id": "title"
+            }
+          ]
+        },
+        "tools_library": {
+          "columnsSizes": [
+            {
+              "id": "title",
+              "value": 545.6721947987874
+            },
+            {
+              "id": "categories",
+              "value": 136.41868527730304
+            },
+            {
+              "id": "class",
+              "value": 136.41868527730304
+            },
+            {
+              "id": "billTo",
+              "value": 136.41868527730304
+            },
+            {
+              "id": "version",
+              "value": 136.41868527730304
+            },
+            {
+              "id": "region",
+              "value": 136.41868527730304
+            },
+            {
+              "id": "modified",
+              "value": 60
+            }
+          ]
+        },
+        "uds_project_data_view": {
+          "isVisibleFilterList": true,
+          "isVisibleFolderList": true,
+          "sortOrder": [
+            {
+              "desc": true,
+              "id": "name"
+            }
+          ]
+        },
+        "uds_project_data_view:TOTAL_SELECTION_VIEW": {
+          "isVisibleFilterList": true
+        },
+        "uds_projects_view": {
+          "columnsSizes": [
+            {
+              "id": "name",
+              "value": 423.828125
+            },
+            {
+              "id": "dataUsage",
+              "value": 60.015625
+            },
+            {
+              "id": "level",
+              "value": 60.015625
+            },
+            {
+              "id": "permissions",
+              "value": 60.015625
+            },
+            {
+              "id": "modified",
+              "value": 135.8125
+            },
+            {
+              "id": "tags",
+              "value": 86.796875
+            },
+            {
+              "id": "region",
+              "value": 132.515625
+            },
+            {
+              "id": "dataSponsored",
+              "value": 100
+            },
+            {
+              "id": "billTo",
+              "value": 100
+            },
+            {
+              "id": "created",
+              "value": 100
+            },
+            {
+              "id": "creator",
+              "value": 100
+            },
+            {
+              "id": "containsPHI",
+              "value": 100
+            },
+            {
+              "id": "property-0",
+              "value": 60
+            },
+            {
+              "id": "property-1",
+              "value": 60
+            },
+            {
+              "id": "property-22",
+              "value": 60
+            },
+            {
+              "id": "property-prop1",
+              "value": 60
+            },
+            {
+              "id": "property-f",
+              "value": 60
+            },
+            {
+              "id": "property-prop_key",
+              "value": 60
+            },
+            {
+              "id": "property-adddddd",
+              "value": 60
+            },
+            {
+              "id": "property-dfdfdfd",
+              "value": 60
+            },
+            {
+              "id": "property-sdsds",
+              "value": 60
+            },
+            {
+              "id": "property-asdf",
+              "value": 60
+            },
+            {
+              "id": "property-ddd",
+              "value": 60
+            },
+            {
+              "id": "property-kdsjdksjd",
+              "value": 60
+            }
+          ],
+          "columnsToShow": [
+            "name",
+            "dataUsage",
+            "level",
+            "permissions",
+            "modified",
+            "tags",
+            "region"
+          ],
+          "filtersVisibility": {
+            "creator": true,
+            "id": true,
+            "name": true,
+            "region": true,
+            "sharedWith": false
+          },
+          "isVisibleFilterList": true,
+          "sortOrder": [
+            {
+              "desc": false,
+              "id": "region"
+            }
+          ]
+        },
+        "undefined": {
+          "sortOrder": [
+            {
+              "desc": true,
+              "id": "created"
+            }
+          ]
+        },
+        "workers_list_page": {
+          "columnsToShow": [
+            "name",
+            "projectName",
+            "executableName",
+            "state",
+            "created"
+          ],
+          "isInfoPanelOpen": false
+        }
+      }
+    }
+  }

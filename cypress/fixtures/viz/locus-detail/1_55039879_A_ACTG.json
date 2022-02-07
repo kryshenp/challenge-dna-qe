@@ -1,0 +1,184 @@
+{
+ "results": [
+  {
+   "a_id": "1_55039879_ACTGCTG_A",
+   "allele": "1_55039879_ACTGCTG_A",
+   "allele_type": "Del",
+   "alt": "A",
+   "alt_count": 8,
+   "alt_freq": 0.00008,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_deletion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.60_65delGCTGCT",
+     "hgvs_p": "p.Leu21_Leu22del",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": "[\"rs778382130\"]",
+   "gnomad201_alt_freq": 0.0000581846,
+   "gt_count": "{\".\":0,\"A\":1,\"ACTG\":0,\"ACTGCTG\":6,\"ACTGCTGCTG\":0,\"ACTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTGCTG\":0,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  },
+  {
+   "a_id": "1_55039879_ACTG_A",
+   "allele": "1_55039879_ACTG_A",
+   "allele_type": "Del",
+   "alt": "ACTG",
+   "alt_count": 83,
+   "alt_freq": 0.00083,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_deletion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.63_65delGCT",
+     "hgvs_p": "p.Leu22del",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": null,
+   "gnomad201_alt_freq": 0.000724076,
+   "gt_count": "{\".\":0,\"A\":0,\"ACTG\":0,\"ACTGCTG\":77,\"ACTGCTGCTG\":5,\"ACTGCTGCTGCTG\":1,\"ACTGCTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTGCTG\":0,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  },
+  {
+   "a_id": "1_55039879_A_ACTG",
+   "allele": "1_55039879_A_ACTG",
+   "allele_type": "Ins",
+   "alt": "ACTGCTGCTG",
+   "alt_count": 12054,
+   "alt_freq": 0.12054,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_insertion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.63_65dupGCT",
+     "hgvs_p": "p.Leu22dup",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": null,
+   "gnomad201_alt_freq": 0.121108,
+   "gt_count": "{\".\":0,\"A\":0,\"ACTG\":5,\"ACTGCTG\":10901,\"ACTGCTGCTG\":550,\"ACTGCTGCTGCTG\":47,\"ACTGCTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTGCTG\":1,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  },
+  {
+   "a_id": "1_55039879_A_ACTGCTG",
+   "allele": "1_55039879_A_ACTGCTG",
+   "allele_type": "Ins",
+   "alt": "ACTGCTGCTGCTG",
+   "alt_count": 284,
+   "alt_freq": 0.00284,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_insertion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.60_65dupGCTGCT",
+     "hgvs_p": "p.Leu21_Leu22dup",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": null,
+   "gnomad201_alt_freq": 0.002767,
+   "gt_count": "{\".\":0,\"A\":0,\"ACTG\":1,\"ACTGCTG\":233,\"ACTGCTGCTG\":47,\"ACTGCTGCTGCTG\":1,\"ACTGCTGCTGCTGCTG\":1,\"ACTGCTGCTGCTGCTGCTG\":0,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  },
+  {
+   "a_id": "1_55039879_A_ACTGCTGCTG",
+   "allele": "1_55039879_A_ACTGCTGCTG",
+   "allele_type": "Ins",
+   "alt": "ACTGCTGCTGCTGCTG",
+   "alt_count": 15,
+   "alt_freq": 0.00015,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_insertion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.57_65dupGCTGCTGCT",
+     "hgvs_p": "p.Leu20_Leu22dup",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": null,
+   "gnomad201_alt_freq": 0.000148694,
+   "gt_count": "{\".\":0,\"A\":0,\"ACTG\":0,\"ACTGCTG\":14,\"ACTGCTGCTG\":0,\"ACTGCTGCTGCTG\":1,\"ACTGCTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTGCTG\":0,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  },
+  {
+   "a_id": "1_55039879_A_ACTGCTGCTGCTG",
+   "allele": "1_55039879_A_ACTGCTGCTGCTG",
+   "allele_type": "Ins",
+   "alt": "ACTGCTGCTGCTGCTGCTG",
+   "alt_count": 9,
+   "alt_freq": 0.00009,
+   "annotation": [
+    {
+     "effect": "[\"disruptive_inframe_insertion\"]",
+     "feature_id": "ENST00000302118.5",
+     "gene_name": "PCSK9",
+     "hgvs_c": "c.54_65dupGCTGCTGCTGCT",
+     "hgvs_p": "p.Leu19_Leu22dup",
+     "putative_impact": "MODERATE"
+    }
+   ],
+   "chr": "1",
+   "dbsnp151_rsid": null,
+   "gnomad201_alt_freq": 0.0000581846,
+   "gt_count": "{\".\":0,\"A\":0,\"ACTG\":0,\"ACTGCTG\":6,\"ACTGCTGCTG\":1,\"ACTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTG\":0,\"ACTGCTGCTGCTGCTGCTG\":1,\"half-ref\":444,\"nc\":58,\"ref\":37653}",
+   "locus": "1_55039879_A_ACTG",
+   "nc_count": 560,
+   "nc_freq": 0.0056,
+   "pos": 55039879,
+   "ref": "ACTGCTG",
+   "ref_count": 86987,
+   "ref_freq": 0.86987,
+   "total_count": 100000
+  }
+ ]
+}
