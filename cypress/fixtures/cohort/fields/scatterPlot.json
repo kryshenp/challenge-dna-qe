@@ -1,0 +1,386 @@
+{
+    "dashboard_schema": "ds-all_datatype_with_all_relationships",
+    "databases": [
+        {
+            "id": null,
+            "name": "all_datatype_with_all_relationships",
+            "tables": [
+                {
+                    "fields": [
+                        {
+                            "array_labels": [],
+                            "columns": [
+                                [
+                                    "baseline_id"
+                                ]
+                            ],
+                            "id": "baseline_id",
+                            "instance_labels": [],
+                            "nesting_labels": [
+                                [],
+                                []
+                            ],
+                            "primary_table_name": "baseline",
+                            "table_alias": "baseline",
+                            "title": "baseline id",
+                            "type": "integer",
+                            "url": null
+                        },
+                        {
+                            "array_labels": [],
+                            "columns": [
+                                [
+                                    "patient_id"
+                                ]
+                            ],
+                            "id": "patient_id",
+                            "instance_labels": [],
+                            "nesting_labels": [
+                                [],
+                                []
+                            ],
+                            "primary_table_name": "patient",
+                            "table_alias": "patient",
+                            "title": "Patient ID",
+                            "type": "integer",
+                            "url": null
+                        },
+                        {
+                            "array_labels": [],
+                            "columns": [
+                                [
+                                    "custom_tile_baseline"
+                                ]
+                            ],
+                            "display_order": [
+                                "One",
+                                "Two",
+                                "Three"
+                            ],
+                            "encoding": {
+                                "One": "Never again",
+                                "Three": "Very good",
+                                "Two": "Pretty much average"
+                            },
+                            "id": "custom_tile_baseline",
+                            "instance_labels": [],
+                            "nesting_labels": [
+                                [],
+                                []
+                            ],
+                            "primary_table_name": "baseline",
+                            "table_alias": "baseline",
+                            "title": "How do you feel Duc?",
+                            "type": "categorical_single_string",
+                            "url": null
+                        }
+                    ],
+                    "folders": [
+                        {
+                            "Baseline": [
+                                "custom_tile_baseline"
+                            ]
+                        },
+                        {
+                            "Patient": [
+                                "name",
+                                "age",
+                                "risk"
+                            ]
+                        },
+                        {
+                            "ID": [
+                                "baseline_id",
+                                "patient_id"
+                            ]
+                        }
+                    ],
+                    "name": "phenotype"
+                }
+            ]
+        }
+    ],
+    "ds_v3": {
+        "annotations": null,
+        "assays": [],
+        "databases": [
+            {
+                "id": null,
+                "name": "all_datatype_with_all_relationships",
+                "tables": [
+                    {
+                        "columns": [
+                            {
+                                "name": "baseline_id",
+                                "type": "bigint"
+                            },
+                            {
+                                "name": "b_patient_id",
+                                "type": "bigint"
+                            },
+                            {
+                                "name": "custom_tile_baseline",
+                                "type": "string"
+                            }
+                        ],
+                        "name": "baseline"
+                    },
+                    {
+                        "columns": [
+                            {
+                                "name": "patient_id",
+                                "type": "bigint"
+                            },
+                            {
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "name": "age",
+                                "type": "bigint"
+                            },
+                            {
+                                "name": "risk",
+                                "type": "string"
+                            }
+                        ],
+                        "name": "patient"
+                    }
+                ],
+                "unique_name": null
+            }
+        ],
+        "description": null,
+        "join_info": [
+            {
+                "joins": [
+                    {
+                        "from": "all_datatype_with_all_relationships$patient$patient_id",
+                        "to": "all_datatype_with_all_relationships$baseline$b_patient_id"
+                    }
+                ],
+                "relationship": "one_to_one",
+                "type": "LEFT"
+            }
+        ],
+        "model": {
+            "codings": {
+                "first_smile": {
+                    "codes_to_concepts": {
+                        "1": "",
+                        "2": "",
+                        "3": "",
+                        "4": "",
+                        "5": "",
+                        "6": "",
+                        "7": ""
+                    },
+                    "codes_to_meanings": {
+                        "1": "Zhenia",
+                        "2": "Pavlo",
+                        "3": "Duc",
+                        "4": "Alina",
+                        "5": "Vlada",
+                        "6": "Alla",
+                        "7": "Martin"
+                    },
+                    "display": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "name": "first_smile"
+                },
+                "na_neg1": {
+                    "codes_to_concepts": {
+                        "-1": ""
+                    },
+                    "codes_to_meanings": {
+                        "-1": "no measurement available"
+                    },
+                    "display": [
+                        "-1"
+                    ],
+                    "name": "na_neg1"
+                },
+                "second_smile": {
+                    "codes_to_concepts": {
+                        "1": "",
+                        "2": "",
+                        "3": "",
+                        "4": "",
+                        "5": "",
+                        "6": "",
+                        "7": ""
+                    },
+                    "codes_to_meanings": {
+                        "1": "Zhenia",
+                        "2": "Pavlo",
+                        "3": "Duc",
+                        "4": "Alina",
+                        "5": "Vlada",
+                        "6": "Alla",
+                        "7": "Martin"
+                    },
+                    "display": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "name": "first_smile"
+                },
+                "sparse_coding": {
+                    "codes_to_concepts": {
+                        "-1": "",
+                        "-2": ""
+                    },
+                    "codes_to_meanings": {
+                        "-1": "didn't like the filling",
+                        "-2": "refused to eat"
+                    },
+                    "display": [
+                        "-1",
+                        "-2"
+                    ],
+                    "name": "sparse_coding"
+                }
+            },
+            "entities": {
+                "patient": {
+                    "default_longitudinal_axis": null,
+                    "entity_description": "this is the description for patient",
+                    "entity_label_plural": "Dumplings",
+                    "entity_label_singular": "Dumpling",
+                    "entity_title": "Patients",
+                    "fields": {
+                        "first_smile": {
+                            "coding_name": "sparse_coding",
+                            "concept": null,
+                            "description": "No dumplings were left for other participants",
+                            "entity": "patient",
+                            "folder_path": [
+                                "Patient"
+                            ],
+                            "is_hierarchical": false,
+                            "is_multi_select": false,
+                            "is_primary_key": false,
+                            "is_sparse_coding": true,
+                            "linkout": null,
+                            "logical_table_name": "phenotype",
+                            "longitudinal_axis_type": null,
+                            "mapping": {
+                                "column": "first_smile",
+                                "column_sql_type": "bigint",
+                                "database_id": null,
+                                "database_name": "all_datatype_with_all_relationships",
+                                "database_unique_name": null,
+                                "optimized_column": null,
+                                "optimized_column_sql_type": null,
+                                "stats": null,
+                                "table": "patient"
+                            },
+                            "name": "first_smile",
+                            "serial_type": "integer_categorical_sparse",
+                            "title": "First smile",
+                            "type": "integer",
+                            "units": null
+                        },
+                        "second_smile": {
+                            "coding_name": null,
+                            "concept": null,
+                            "description": "lkfldkfldks",
+                            "entity": "patient",
+                            "folder_path": [
+                                "Patient"
+                            ],
+                            "is_hierarchical": false,
+                            "is_multi_select": false,
+                            "is_primary_key": false,
+                            "is_sparse_coding": true,
+                            "linkout": null,
+                            "logical_table_name": "phenotype",
+                            "longitudinal_axis_type": null,
+                            "mapping": {
+                                "column": "second_smile",
+                                "column_sql_type": "bigint",
+                                "database_id": null,
+                                "database_name": "all_datatype_with_all_relationships",
+                                "database_unique_name": null,
+                                "optimized_column": null,
+                                "optimized_column_sql_type": null,
+                                "stats": null,
+                                "table": "patient"
+                            },
+                            "name": "second_smile",
+                            "serial_type": "integer_categorical_sparse",
+                            "title": "Second smile",
+                            "type": "integer",
+                            "units": null
+                        }
+                    },
+                    "is_main_entity": true,
+                    "name": "patient",
+                    "primary_key": "patient_id",
+                    "stats": null
+                }
+            },
+            "folders": [
+                {
+                    "Colleagues": [
+                        [
+                            "patient",
+                            "first_smile"
+                        ],
+                        [
+                            "patient",
+                            "second_smile"
+                        ]
+                    ]
+                }
+            ],
+            "global_primary_key": {
+                "column": "patient_id",
+                "database_id": null,
+                "database_name": "all_datatype_with_all_relationships",
+                "database_unique_name": null,
+                "entity": "patient",
+                "field": "patient_id",
+                "table": "patient"
+            }
+        },
+        "name": "All Datatypes with Table Relationships",
+        "version": "3.0"
+    },
+    "geno_bin_size": 2500000,
+    "geno_tables": [],
+    "join_info": [
+        {
+            "columns": [
+                {
+                    "a": "all_datatype_with_all_relationships$patient$patient_id",
+                    "b": "all_datatype_with_all_relationships$baseline$b_patient_id"
+                }
+            ],
+            "relationship": "one_to_one",
+            "type": "LEFT"
+        }
+    ],
+    "name": "All Datatypes with Table Relationships",
+    "pheno_geno_link_info": {},
+    "primary_geno_column": "sample_id",
+    "primary_pheno_column": "patient_id",
+    "primary_pheno_database": "all_datatype_with_all_relationships",
+    "primary_pheno_table": "patient",
+    "raw_vcf_tables": [],
+    "reference_genome": null,
+    "rsid_lookup_table": "db$rsid_table",
+    "version": "2.9"
+}

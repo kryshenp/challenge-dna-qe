@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "a_id": "1_55063628_G_A",
+            "allele": "1_55063628_G_A",
+            "allele_type": "SNP",
+            "alt": "A",
+            "alt_count": 4,
+            "alt_freq": 0.00004,
+            "annotation": [
+                {
+                    "effect": "[\"3_prime_UTR_variant\"]",
+                    "feature_id": "ENST00000302118.5",
+                    "gene_name": "PCSK9",
+                    "hgvs_c": "c.*44G>A",
+                    "hgvs_p": "",
+                    "putative_impact": "MODIFIER"
+                }
+            ],
+            "chr": "1",
+            "dbsnp151_rsid": "[\"rs1340440495\"]",
+            "gnomad201_alt_freq": 0.00000989433,
+            "gt_count": "{\".\":0,\"A\":1,\"G\":2,\"half-ref\":326,\"nc\":167,\"ref\":49504}",
+            "locus": "1_55063628_G_A",
+            "nc_count": 660,
+            "nc_freq": 0.0066,
+            "pos": 55063628,
+            "ref": "G",
+            "ref_count": 99336,
+            "ref_freq": 0.99336,
+            "total_count": 100000
+        }
+    ]
+}

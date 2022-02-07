@@ -1,0 +1,154 @@
+{
+    "results": [
+        {
+            "a_id": "2_218282101_T_C",
+            "allele": "2_218282101_T_C",
+            "allele_type": "SNP",
+            "alt": "C",
+            "alt_count": 0,
+            "alt_freq": 0,
+            "annotation": [
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000258412.7",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000396809.6",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000444881.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000425694.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000453281.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000418569.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000453776.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000434015.2",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000444000.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000413976.1",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000429501.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000440422.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000444183.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"missense_variant\"]",
+                    "feature_id": "ENST00000451181.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.41A>G",
+                    "hgvs_p": "p.Asn14Ser",
+                    "putative_impact": "MODERATE"
+                },
+                {
+                    "effect": "[\"intron_variant\"]",
+                    "feature_id": "ENST00000273077.8",
+                    "gene_name": "PNKD",
+                    "hgvs_c": "c.236+10552T>C",
+                    "hgvs_p": "",
+                    "putative_impact": "MODIFIER"
+                },
+                {
+                    "effect": "[\"intron_variant\"]",
+                    "feature_id": "ENST00000445635.5",
+                    "gene_name": "TMBIM1",
+                    "hgvs_c": "c.-320-1975A>G",
+                    "hgvs_p": "",
+                    "putative_impact": "MODIFIER"
+                }
+            ],
+            "chr": "2",
+            "dbsnp151_rsid": "[\"rs373140787\"]",
+            "gnomad201_alt_freq": 0.00000514864,
+            "gt_count": "{\".\":0,\"C\":0,\"T\":0,\"half-ref\":322,\"nc\":149,\"ref\":49529}",
+            "locus": "2_218282101_T_C",
+            "nc_count": 620,
+            "nc_freq": 0.0062,
+            "pos": 218282101,
+            "ref": "T",
+            "ref_count": 99380,
+            "ref_freq": 0.9938,
+            "total_count": 100000
+        }
+    ]
+}

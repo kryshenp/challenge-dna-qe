@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    // Enable strictest settings like strictNullChecks & noImplicitAny.
+    "strict": true,
+    "isolatedModules": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // Tells the compiler that "DOM-APIs" and new ECMAScript features are valid.
+    "lib": ["dom", "es2019"],
+    "skipLibCheck": true,
+    "types": ["jest"],
+    "paths": {
+      "cyFixtures": ["cypress/fixtures"],
+      "cyFixtures/*": ["cypress/fixtures/*"],
+      "cySupport": ["cypress/support"],
+      "cySupport/*": ["cypress/support/*"],
+      "konstants": ["src/konstants"],
+      "konstants/*": ["src/konstants/*"],
+    },
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+  ]
+}

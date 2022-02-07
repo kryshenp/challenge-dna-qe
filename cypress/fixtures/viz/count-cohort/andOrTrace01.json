@@ -1,0 +1,39 @@
+{
+  "fields": {"column": "patient$patient_id"},
+  "filters": {
+    "pheno_filters": {
+      "compound": [
+        {
+          "name": "phenotype",
+          "logic": "and",
+          "filters": {"patient$risk": [{"condition": "in", "values": ["Low"]}]},
+          "entity": {
+            "logic": "and",
+            "name": "patient",
+            "operator": "exists",
+            "children": [
+              {
+                "name": "doctor@<UUID>",
+                "logic": "or",
+                "filters": {
+                  "doctor$cert_lvl": [{"condition": "in", "values": [0]}],
+                  "doctor$degree": [{"condition": "any", "values": ["phd"]}]
+                },
+                "entity": {
+                  "logic": "and",
+                  "name": "doctor",
+                  "operator": "exists",
+                  "children": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "logic": "and"
+    },
+    "assay_filters": {"compound": [], "logic": "and"},
+    "logic": "and"
+  },
+  "project_context": "project-FfQ4z7000GvgVZGPGk7kZPKF"
+}
